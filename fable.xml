@@ -16,6 +16,13 @@
     	<cortada y="410" text="toma essa mostro! Agora Toque na placa para prosseguir na jornada" />
     </agent>
 
+    <agent 
+      img="chest.png" x="415" y="90" width="200" 
+      height="75" drop-zone="chestopen">
+    	
+      <chestopen y="-200" />
+    </agent>
+
     <agent img="box.png" x="10" y="0" width="75" height="75" />
     <agent img="box.png" x="90" y="0" width="75" height="75" />
 
