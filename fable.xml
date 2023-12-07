@@ -1,6 +1,6 @@
 <fable>
   
-   <page background="quarto.jpg"soundtrack="song.wav">
+   <page background="quarto.jpg" soundtrack="song.wav">
 
     <agent 
       text="Johnny está preso está preso em seu quarto!" font-size="18" x="20" y="450" 
