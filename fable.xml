@@ -1,8 +1,6 @@
 <fable>
   
-
-  
-  <page background="bg2.jpg" soundtrack="song.wav">
+   <page background="o-quarto.jpg".jpg" soundtrack="song.wav">
 
     <agent 
       text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
