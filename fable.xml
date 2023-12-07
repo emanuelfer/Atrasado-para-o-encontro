@@ -47,7 +47,7 @@
   
   <page background="torre-eiffel.png" soundtrack="song3.wav">
     <agent 
-      text="oh!! uma caverna secreta" font-size="19" x="20" y="450" 
+      text="Agora Johnny está feliz de estar com sua amada!" font-size="19" x="20" y="450" 
       width="400" />
 
     <agent 
