@@ -16,14 +16,8 @@
     	<cortada y="410" text="toma essa mostro! Agora Toque na placa para prosseguir na jornada" />
     </agent>
 
-    <agent img="1.png" x="0" y="0" width="100" height="100" />
-    <agent img="2.png" x="100" y="0" width="100" height="100" />
-    <agent img="2.png" x="200" y="0" width="100" height="100" />
-    <agent img="2.png" x="300" y="0" width="100" height="100" />
-    <agent img="2.png" x="400" y="0" width="100" height="100" />
-
-    <agent img="box.png" x="10" y="0" width="50" height="50" />
-    <agent img="box.png" x="65" y="100" width="50" height="50" />
+    <agent img="box.png" x="10" y="0" width="75" height="75" />
+    <agent img="box.png" x="90" y="0" width="75" height="75" />
 
     <agent img="johny.png" x="100" y="90" width="250" height="300" />
     
