@@ -47,33 +47,13 @@
   
   <page background="torre-eiffel.png" soundtrack="song3.wav">
     <agent 
-      text="Agora Johnny está feliz de estar com sua amada!" font-size="19" x="20" y="450" 
-      width="400" />
-
-    <agent 
-      text="Precisamos abrir a porta" font-size="16" x="20" y="430" 
-      width="400" />
-    
-    <agent 
-      text="O que acontece se tocar no painel de controle?" 
-      x="20" y="390" width="300" on-trigger="unlocked"> 
-    	
-    	<unlocked y="410" text="Acesso liberado... A gora toque na porta" color="orange"/>
-    </agent>
+      text="Agora Johnny está feliz por estar com sua amada!" font-size="19" x="20" y="450" 
+      width="400" color="white" />
 
 
-    <agent img="Bush.png" x="20" y="100" width="100" height="60" />
-    <agent img="block.png" x="310" y="100" width="200" height="200" />
     
     <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
-    
-    <agent 
-      img="switchLock.png" x="340" y="100" width="20" 
-      height="75" on-touch="unlocked">		 
-    	
-      <unlocked img="switchUnlocked.png" />    
-    </agent>
-    
+        
     <agent 
       img="locked.png" x="375" y="100" width="75" 
       height="110" on-trigger="unlocked">
