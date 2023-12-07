@@ -27,7 +27,7 @@
       <after-chestopen y="-200" />
     </agent>   
     
-    <agent img="IceBox.png" x="10" y="150" width="50" height="50" draggable="true" />
+    <agent img="IceBox.png" x="50" y="75" width="75" height="75" draggable="true" />
 
     <agent img="johny.png" x="100" y="90" width="250" height="300" />
     
