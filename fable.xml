@@ -10,8 +10,8 @@
     </agent>
     
     <agent 
-      text="Ajude-o a econtrar a chave e desbloquear a saída para enconatrar " 
-      x="20" y="400" width="300" on-trigger="cortada" color="orange">
+      text="Ajude-o a econtrar a chave e desbloquear a saída para encontrar sua amada!" 
+      x="20" y="400" width="300" on-trigger="cortada" color="white">
     
     	<cortada y="410" text="toma essa mostro! Agora Toque na placa para prosseguir na jornada" />
     </agent>
