@@ -3,7 +3,7 @@
    <page background="o-quarto.jpg".jpg" soundtrack="song.wav">
 
     <agent 
-      text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
+      text="Johnny está perdido e precisar achar a saída para a próxima página. A" font-size="18" x="20" y="450" 
       width="400" on-trigger="cortada"> 
     
     	<cortada text="O caminhos está livre!" />
