@@ -19,6 +19,16 @@
     <agent img="box.png" x="10" y="0" width="75" height="75" />
     <agent img="box.png" x="90" y="0" width="75" height="75" />
 
+    <agent 
+      img="key.png" x="20" y="150" width="40" height="35" 
+      draggable="true" on-drop="chestopen" on-zone="after-chestopen" 
+      on-trigger="after-chestopen">
+    	
+      <after-chestopen y="-200" />
+    </agent>   
+    
+    <agent img="IceBox.png" x="10" y="150" width="50" height="50" draggable="true" />
+
     <agent img="johny.png" x="100" y="90" width="250" height="300" />
     
     <agent img="Sign_2.png" x="385" y="160" width="45" height="40" on-touch="_NEXT_PAGE" />
