@@ -4,7 +4,7 @@
 
     <agent 
       text="Johnny está preso está preso em seu quarto!" font-size="18" x="20" y="450" 
-      width="400" on-trigger="cortada" color="red"> 
+      width="400" on-trigger="cortada" color="black"> 
     
     	<cortada text="O caminhos está livre!" />
     </agent>
