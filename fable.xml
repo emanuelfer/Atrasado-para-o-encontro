@@ -3,14 +3,14 @@
    <page background="o-quarto.jpg".jpg" soundtrack="song.wav">
 
     <agent 
-      text="Johnny está perdido e precisar achar a saída para a próxima página. A" font-size="18" x="20" y="450" 
-      width="400" on-trigger="cortada"> 
+      text="Johnny está preso está preso em seu quarto!" font-size="18" x="20" y="450" 
+      width="400" on-trigger="cortada" color="red"> 
     
     	<cortada text="O caminhos está livre!" />
     </agent>
     
     <agent 
-      text="droga tem um mostro guardondo o caminho!... mas ele não me viu, que tal bater na cabeça dele?" 
+      text="Ajude-o a econtrar a chave e desbloquear a saída para enconatrar " 
       x="20" y="400" width="300" on-trigger="cortada" color="orange">
     
     	<cortada y="410" text="toma essa mostro! Agora Toque na placa para prosseguir na jornada" />
