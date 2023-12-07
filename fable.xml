@@ -1,6 +1,6 @@
 <fable>
   
-	<page background="bg.png" soundtrack="song3.wav">
+	<page background="o-" soundtrack="song3.wav">
   
 		<agent 
       text="O jovem Cavaleiro" font-size="20" x="20" y="460" 
