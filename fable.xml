@@ -20,7 +20,7 @@
     <agent img="box.png" x="90" y="0" width="75" height="75" />
 
     <agent 
-      img="key.png" x="20" y="150" width="40" height="35" 
+      img="key.png" x="60" y="150" width="40" height="35" 
       draggable="true" on-drop="chestopen" on-zone="after-chestopen" 
       on-trigger="after-chestopen">
     	
