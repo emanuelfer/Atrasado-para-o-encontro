@@ -28,7 +28,7 @@
     </agent>   
 
 
-    
+
     
     <agent img="IceBox.png" x="50" y="75" width="75" height="75" draggable="true" />
 
@@ -45,7 +45,7 @@
   
   </page>
   
-  <page background="bg2.jpg" soundtrack="song3.wav">
+  <page background="torre-eiffel.png" soundtrack="song3.wav">
     <agent 
       text="oh!! uma caverna secreta" font-size="19" x="20" y="450" 
       width="400" />
@@ -61,11 +61,6 @@
     	<unlocked y="410" text="Acesso liberado... A gora toque na porta" color="orange"/>
     </agent>
 
-    <agent img="1.png" x="0" y="0" width="100" height="100" />
-    <agent img="2.png" x="100" y="0" width="100" height="100" />
-    <agent img="2.png" x="200" y="0" width="100" height="100" />
-    <agent img="2.png" x="300" y="0" width="100" height="100" />
-    <agent img="2.png" x="400" y="0" width="100" height="100" />
 
     <agent img="Bush.png" x="20" y="100" width="100" height="60" />
     <agent img="block.png" x="310" y="100" width="200" height="200" />
@@ -87,127 +82,6 @@
       <open img="open.png" on-touch="_NEXT_PAGE" />
     </agent>
   
-  </page>
-
-	<page background="bg_lab.png" soundtrack="song2.wav">
-    
-    <agent text="Nossa! um Zumbi... será que conseguimos explodi-lo?" 
-      x="20" y="410" font-size="18" color="white" 
-      width="300" on-trigger="outscreen">
-      
-    	<outscreen text="Acesso liberado! agora vamos salvar minha amada!!" color="orange"/>
-    </agent>
-    
-    <agent img="floor.png" x="0" y="0" width="100" height="100" />
-    <agent img="floor2.png" x="100" y="0" width="100" height="100" />
-    <agent img="floor2.png" x="200" y="0" width="100" height="100" />
-    <agent img="floor2.png" x="300" y="0" width="100" height="100" />
-    <agent img="floor3.png" x="400" y="0" width="100" height="100" />     
-    
-    <agent 
-      img="unlocked.png" x="415" y="100" width="75" 
-      height="110" on-touch="open">
-    	
-      <open img="open.png" on-touch="_NEXT_PAGE" />
-    </agent>
-    
-    <agent img="Attack (1).png" x="400" y="100" width="100" height="150" drop-zone="explode">
-    	<explode y="-200" />
-    </agent>   
-    
-    <agent 
-      img="Barrel.png" x="20" y="100" width="50" height="60" 
-      draggable="true" on-drop="explode" on-zone="outscreen" 
-      on-trigger="outscreen" soundtrack="song.mp3">
-    
-      <outscreen y="-200" /> 
-    </agent> 
-  
-    <agent img="Idle (1).png" x="100" y="90" width="80" height="100" />
-    
-  </page>
-  
-  <page background="noite_dark.png" soundtrack="song3.wav">
-    
-    <agent 
-      text="oh! não ela ta virando zumbi! ... Rápido encontre a chave e abrar o baú" 
-      x="20" y="430" font-size="18" color="white" 
-      width="300" on-trigger="after-chestopen">
-      
-    	<after-chestopen text="muito bem voce achou a poção magica, use para salvar a garota!" />
-    </agent>
-      <agent 
-      text="!"
-      x="20" y="390" font-size="17" color="white"
-      width="240" on-trigger="theend">
-      
-    	<theend text=" muito obrigada por me salva!" color="orange"/>
-    </agent>
-    <agent img="1.png" x="0" y="0" width="100" height="100" />
-    <agent img="2.png" x="100" y="0" width="100" height="100" />
-    <agent img="2.png" x="200" y="0" width="100" height="100" />
-    <agent img="2.png" x="300" y="0" width="100" height="100" />
-    <agent img="2.png" x="400" y="0" width="100" height="100" />     
-    
-    <agent img="box.png" x="10" y="100" width="50" height="50" />
-    <agent img="box.png" x="65" y="100" width="50" height="50" />
-  
-    <agent img="Idle (1).png" x="120" y="90" width="80" height="100" />
-    
-  	<agent 
-      img="portion.png" x="430" y="100" width="40" height="40" 
-      draggable="true" on-drop="lived" on-zone="theend">
-    
-      <after-chestopen y="100" /> 
-    </agent> 
-    
-    <agent 
-      img="chest.png" x="415" y="90" width="75" 
-      height="75" drop-zone="chestopen">
-    	
-      <chestopen y="-200" />
-    </agent>
-    
-    <agent 
-      img="key.png" x="20" y="150" width="40" height="35" 
-      draggable="true" on-drop="chestopen" on-zone="after-chestopen" 
-      on-trigger="after-chestopen">
-    	
-      <after-chestopen y="-200" />
-    </agent>   
-    
-    <agent img="IceBox.png" x="10" y="150" width="50" height="50" draggable="true" />
-    
-    <agent 
-      img="Dead (9).png" x="300" y="86" width="100" height="100" 
-      drop-zone="lived">
-    
-      <lived img="princesa.png" x="300" y="95" width="60" height="85" />
-    </agent>
-    
-    <agent img="Sign_2.png" x="430" y="-50" width="50" height="50" 
-      on-touch="_NEXT_PAGE" on-trigger="theend">
-    	
-      <theend y="100" />
-      
-    </agent>
-    
-  </page>
-  
-  <page background="noite.png" soundtrack="intro.wav">
-    
-		<agent img="1.png" x="0" y="0" width="100" height="100" />
-    <agent img="2.png" x="100" y="0" width="100" height="100" />
-    <agent img="2.png" x="200" y="0" width="100" height="100" />
-    <agent img="2.png" x="300" y="0" width="100" height="100" />
-    <agent img="2.png" x="400" y="0" width="100" height="100" />  
-    <agent img="Attack (7).png" x="50" y="100" width="50" height="50" />
-    <agent img="Attack (1).png" x="10" y="100" width="50" height="50" />
-    <agent img="block.png" x="390" y="100" width="120" height="150" />
-    <agent text="Eles retonaram de volta para casa e viveram felizes para sempre! ..." x="15" y="450" font-size="20" />
-    <agent text="Segundo eles, o zumbi ficaram no passado, mas existia mais uma outra caverna." x="14" y="390" font-size="20" />
-    <agent img="open.png" x="410" y="99" width="70" height="90" />
-    <agent text="FIM" x="15" y="300" font-size="50" />
   </page>
   
 </fable>
